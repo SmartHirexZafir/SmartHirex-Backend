@@ -1,5 +1,8 @@
 # This is a dummy interface simulating the ML model
 
+from app.ml_model.model_testing import predict_resume_category
+
+
 def get_ranked_resumes(filters: dict):
     # This will be replaced with real ML API call later
     # For now we return mock data
